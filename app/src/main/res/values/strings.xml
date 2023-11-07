@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XansomniaPruebita</string>
+    <string-array name="ubicaciones">
+        <item>Quilquilil Rock</item>
+        <item>Huincacara Music</item>
+        <item>True Gorbeian Black Metal</item>
+    </string-array>
+</resources>
