@@ -58,18 +58,12 @@ public class TiendasGuitars extends AppCompatActivity implements OnMapReadyCallb
 
     @Override
     public void onMapClick(@NonNull LatLng latLng) {
-        txtLat.setText(""+latLng.latitude);
-        txtLong.setText(""+latLng.longitude);
 
-        agregarTienda(latLng.latitude, latLng.longitude, "Marcador de toque");
     }
 
     @Override
     public void onMapLongClick(@NonNull LatLng latLng) {
-        txtLat.setText(""+latLng.latitude);
-        txtLong.setText(""+latLng.longitude);
 
-        agregarTienda(latLng.latitude, latLng.longitude, "Marcador de toque");
     }
 
 }
